@@ -91,7 +91,7 @@ padding: 2em;
 
 #section h2{
  max-width: 940px;
- /* text-align: center; */
+ text-align: center;
  
 }
 
@@ -125,7 +125,7 @@ padding: 2em;
 .grid a:visited 
 {
     padding: .8em 1em;
-    /* background-color: black; */
+    background-color: black;
     color: #fff;
     text-decoration: none;
     border: 2px solid black;
