@@ -1,0 +1,307 @@
+
+* { box-sizing: border-box;
+  
+}
+ img{
+    width: 100%;
+ }
+
+
+ body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ header{
+    background-color: black;
+    color: #fff;
+ }
+
+ header div{ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .div:nth-child(1){
+    display: flex;
+    justify-self: left;
+ }
+
+ nav ul{
+    list-style: none;
+    display: flex;
+ }
+
+ nav ul li a{ 
+    padding: 0.5em;
+    color: #fff;
+    text-decoration: none;
+ }
+
+ .wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+#hero{ 
+    height: 600px;
+    background-image: url(/images/hands-typing.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1{
+    color: #fff;
+    font-size: 2.5rem;
+    max-width: 60%;
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+.intro-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-pic{ 
+    align-self: end;
+    width: 100%;
+}
+
+#service {
+ background-color: #fafafa;
+padding: 2em;
+
+}
+
+#service  h2{
+    text-align: center;
+    justify-self: center;
+
+}
+
+#section h2{
+ max-width: 940px;
+ /* text-align: center; */
+ 
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.grid article{
+    padding: 1em;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.grid article h3{
+    margin-bottom: 0;
+
+}
+
+.grid article p {
+    padding-bottom: 2em;
+}
+
+.grid a:link, 
+.grid a:visited {
+    padding: .8em 1em;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: auto;
+}
+
+.grid a:hover
+.grid a:focus{
+    background-color: #fff;
+    color: black;
+}
+
+#work {
+    max-width: 940px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.work-images{ 
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    "block-1 block-1 block-1 block-2 block-2 block-2"
+    "block-3 block-3 block-4 block-4 block-5 block-5"
+    ;
+
+}
+
+
+.work-images .block:nth-child(1){
+    grid-area: block-1;
+}
+
+.work-images .block:nth-child(2){
+    grid-area: block-2;
+}
+
+.work-images .block:nth-child(3){
+    grid-area: block-3;
+}
+
+.work-images .block:nth-child(4){
+    grid-area: block-4;
+}
+
+.work-images .block:nth-child(5){
+    grid-area: block-5;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 15px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: small;
+    
+}
+/* .wrapper {
+    
+    max-width: 940px;
+    margin: 0 auto;
+ }
+
+header { 
+background-color: black;
+color: white;
+
+} */
+
+
+/* .emily {
+ display: flex;}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul {
+ margin-left: auto;
+} */
+/* .img{
+width: 100px;
+
+}
+#hero {
+text-decoration: center;
+}
+
+#aboutme {
+    max-height: 940px;
+    margin: 0 auto;
+    padding: 2em;
+}
+.about.me {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+#services{
+ max-width: 940px;
+ margin: 0 auto;
+ background-color: #fafafa;
+ padding: 2em;
+}
+
+.h2{
+max-width: 940px;
+text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+
+.grid article {
+padding: 1em;
+background-color: #fff;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.grid article h3 {
+margin-bottom: 0;
+}
+
+.grid article p {
+padding-bottom: 2em;
+
+}
+
+.grid a:link. {
+padding: .8em 1em;
+background-color: black;
+color: white;
+text-decoration: none;
+border: 2px solid black;
+border-radius: 4px;
+margin-top: auto;
+}
+
+.grid a:hover,
+.grid a:focus {
+    background-color: #fff;
+    color: black;
+}
+#work {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 2em;
+} */
+
+
+
+
+
+/* nav ul{
+    list-style: none;
+    display: flex;
+} */
+
+
+
+
+
+
+/* .emily{
+   display: flex;
+}
+nav ul { 
+    margin-left: auto;
+} 
