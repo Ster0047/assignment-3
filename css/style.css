@@ -44,9 +44,9 @@
     margin: 0 auto;
 }
 
-#hero{ 
+#hero { 
     height: 600px;
-    background-image: url(/images/hands-typing.jpg);
+    background-image: url(../images/hands-typing.jpg);
     background-position: center;
     background-size: cover;
     filter: grayscale(70%);
@@ -122,9 +122,10 @@ padding: 2em;
 }
 
 .grid a:link, 
-.grid a:visited {
+.grid a:visited 
+{
     padding: .8em 1em;
-    background-color: black;
+    /* background-color: black; */
     color: #fff;
     text-decoration: none;
     border: 2px solid black;
